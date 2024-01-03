@@ -1,0 +1,6 @@
+print("-------Conversor de Temperatura--------------")
+tc=int(input("Digite a temperatura em Celsius: "))
+tf=1.8 * tc + 32
+tk=tc+273.15
+print("A temperatura em Farenheit será:", tf, "F*")
+print("A temperatura em Kelvin será:", tf, "K*")
